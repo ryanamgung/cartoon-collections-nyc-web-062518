@@ -1,5 +1,4 @@
 def roll_call_dwarves(array)
-  # Your code here
   array.each_with_index{|dwarf, number|
   #because we want our count to start from 1
   number += 1
@@ -7,8 +6,9 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  # Your code here
-  
+  array.collect do |element|
+    element.first.to
+  end
 end
 
 def long_planeteer_calls# code an argument here
