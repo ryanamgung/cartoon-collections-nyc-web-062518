@@ -22,7 +22,9 @@ def find_the_cheese(array)
   array.include? do |food|
     var = 0
     until var == cheese_types.length do
-      food == cheese_types[var]
+      if food == cheese_types[var]
+        true
+      end
       var += 1
     end
   end
