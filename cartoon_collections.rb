@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(array)
   array.collect do |element|
-    element.first.to
+    element.chars.first
   end
 end
 
