@@ -1,6 +1,7 @@
 def roll_call_dwarves(array)
   # Your code here
   array.each_with_index{|dwarf, number|
+  #because we want our count to start from 1
   number += 1
   puts "#{number}. #{dwarf}"}
 end
